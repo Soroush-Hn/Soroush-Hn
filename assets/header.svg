@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Soroush — build · debug · understand · repeat">
+  <title>Soroush — build · debug · understand · repeat</title>
+  <style>
+    .entry { animation: entry 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both; }
+    @keyframes entry { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    #cursor { animation: blink 1s steps(1, end) infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#0F2E2B"/>
+    </linearGradient>
+    <radialGradient id="glowTL" cx="0.18" cy="0.12" r="0.55">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBR" cx="0.88" cy="0.92" r="0.60">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.5" fill="#FFFFFF" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glowTL)"/>
+  <rect width="1200" height="300" fill="url(#glowBR)"/>
+  <rect width="1200" height="300" fill="url(#dots)"/>
+
+  <g>
+    <path d="M 0 262 C 200 214, 400 214, 600 262 C 800 310, 1000 310, 1200 262 C 1400 214, 1600 214, 1800 262 C 2000 310, 2200 310, 2400 262 L 2400 300 L 0 300 Z" fill="#0D9488" fill-opacity="0.65"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="18s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <path d="M 0 228 C 200 182, 400 182, 600 228 C 800 274, 1000 274, 1200 228 C 1400 182, 1600 182, 1800 228 C 2000 274, 2200 274, 2400 228 L 2400 300 L 0 300 Z" fill="#14B8A6" fill-opacity="0.45"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="13s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <path d="M 0 196 C 200 158, 400 158, 600 196 C 800 234, 1000 234, 1200 196 C 1400 158, 1600 158, 1800 196 C 2000 234, 2200 234, 2400 196 L 2400 300 L 0 300 Z" fill="#5EEAD4" fill-opacity="0.30">
+      <animate attributeName="fill-opacity" values="0.25;0.45;0.25" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="9s" repeatCount="indefinite"/>
+  </g>
+
+  <g class="entry">
+    <text x="600" y="120" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="2" fill="#F8FAFC">Soroush</text>
+    <text x="600" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" letter-spacing="4" fill="#5EEAD4">build · debug · understand · repeat</text>
+    <rect id="cursor" x="878" y="136" width="14" height="26" fill="#5EEAD4"/>
+  </g>
+</svg>

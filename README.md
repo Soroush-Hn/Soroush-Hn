@@ -1,30 +1,43 @@
-# 💫 About Me:
-Hi, I'm Soroush 👋<br>👩🏻‍💻 studying computer engineering at the University of Arak
+<p align="center"><img src="assets/header.svg" alt="Soroush — build · debug · understand · repeat" width="100%" /></p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?lines=Computer+Engineering+student;Laravel+%2F+PHP+backend;C%23+%2F+.NET+developer;I+build+systems+that+hold+up&color=5EEAD4&center=true&width=600" alt="Typing: Computer Engineering student; Laravel / PHP backend; C# / .NET developer; I build systems that hold up" />
+</p>
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![asp.net](https://img.shields.io/badge/asp.NET-5C2D91?style=for-the-badge&logo=asp.net&logoColor=white) ![WinUI3](https://img.shields.io/badge/WinUi3-%230072C6.svg?style=for-the-badge&logo=WinUi3&logoColor=white) ![wpf](https://img.shields.io/badge/wpf-%230072C6.svg?style=for-the-badge&logo=WPF&logoColor=white) ![Blazor](https://img.shields.io/badge/blazor-%235C2D91.svg?style=for-the-badge&logo=blazor&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Livewire](https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Soroush-Hn&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Soroush-Hn&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Soroush-Hn&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+## 📌 About Me
 
----
-[![](https://visitcount.itsvg.in/api?id=Soroush-Hn&icon=0&color=0)](https://visitcount.itsvg.in)
+I'm Soroush, a computer engineering student at the University of Arak. I build production web systems and desktop apps, mostly with Laravel/PHP and C#/.NET. I care about architecture that holds up, APIs that are a pleasure to integrate, and tests that actually catch things.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<!--
-**Soroush-Hn/Soroush-Hn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🔭 Currently
 
-Here are some ideas to get you started:
+- Built the API layer of a production e-commerce platform — a consistent JSON:API surface, Sanctum auth with phone + OTP sign-in, threaded review workflows, and audit-logged account changes, all behind a suite of more than 2,700 tests.
+- Building a Windows desktop app for records-heavy teams — WinUI 3 and EF Core on Clean Architecture, a Persian RTL interface, and role-based access across six roles.
+- Exploring multi-tenant SaaS architecture, T-SQL internals, Temporal/gRPC workflows, and web-security topics.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 What I Work With
+
+**Backend & APIs:** ![Backend & APIs: PHP, Laravel, C#, .NET](https://skillicons.dev/icons?i=php,laravel,cs,dotnet)
+
+**Frontend:** ![Frontend: HTML, CSS, JavaScript, Tailwind CSS, Bootstrap](https://skillicons.dev/icons?i=html,css,javascript,tailwind,bootstrap)
+
+**Data:** ![Data: MySQL, Redis, SQLite, Microsoft SQL Server](assets/icons/data-strip.svg)
+
+**Tools:** ![Tools: Git, Docker, PowerShell, Node.js](https://skillicons.dev/icons?i=git,docker,powershell,nodejs)
+
+## 🧭 Where I'm Heading
+
+<p align="center"><img src="assets/roadmap.svg" alt="Where I'm heading: production backends today, then architecture and data, distributed systems, and software architecture" width="100%" /></p>
+
+## 📊 GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Soroush-Hn&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=5EEAD4&text_color=9CA3AF&icon_color=5EEAD4" alt="Soroush's GitHub stats" />
+</p>
+
+## 📫 Reach Me
+
+<p align="center">
+  <a href="https://t.me/Soroush_Ha"><img src="https://img.shields.io/badge/Telegram-0D9488.svg?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>
+</p>
+
+<p align="center"><img src="assets/footer.svg" alt="Thanks for visiting" width="100%" /></p>
